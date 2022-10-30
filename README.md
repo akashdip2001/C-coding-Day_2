@@ -121,18 +121,25 @@ C cording Day Day_2
 ```
 ![perimeter and area of rectangle](https://user-images.githubusercontent.com/81384987/198894416-f7acd83d-1ec0-4b65-9145-a4ce8926e03c.png)
 ---
-6) Write a C program to take a floating-point number from user and show its value.
-``` #include<stdio.h>
-   int main()
-   {
-       float a,b;
-        printf("Enter Two integers \n");
-        scanf("%f %f",&a,&b);
-   
-       printf("Two integers is %f & %f ",a,b);
+6) Write a C program to find the number of subsets of a set containing 'n' elements (The value of n is given by user).
+``` 
+    #include<stdio.h>
+    #include<math.h>
+      int main()
+      {
+        int num,subset;
+        
+        printf("Enter the number\n");
+        scanf("%d",&num);
+
+        subset=pow(2,num);
+
+          printf("Total subset of the number %d is %d",num,subset);
        return 0;
-    }
+       }
  ```
+ ![number of subsets of a set](https://user-images.githubusercontent.com/81384987/198895151-1403083c-ae2b-4d15-9e63-ee9f9897197e.png)
+
  ---
  7) Write a C program to take a character variable from user and show its value.
  ```
