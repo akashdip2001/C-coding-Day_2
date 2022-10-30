@@ -88,7 +88,7 @@ C cording Day Day_2
         scanf("%f",&s);
 
         a=s*s;
-        l=sqrt(a/0.5);
+        l=sqrt(a/0.5);  //because 1/2 = 0.5
 
 
         printf("The area of this circle is %f",l);
@@ -98,20 +98,28 @@ C cording Day Day_2
 ![Write a C program to enter the length of a side for a square and show the length of its diagonal using standard output function](https://user-images.githubusercontent.com/81384987/198893648-7464cde2-0954-47c2-baf0-9afe6ebb7843.png)
 
 ---
-5) Write a C program to take two different integers from user and also display their different. --- same ⬆️ ( c = a-b )
+5) Write a C program to enter the length and breadth of a rectangle and show perimeter and area of rectangle.
 ```
    #include<stdio.h>
    int main()
    {
-       int a,b;
-        printf("Enter Two integers \n");
-        scanf("%d %d",&a,&b);
-   
-       printf("Two integers is %d & %d and there Sum is %d",a,b,a-b);
+       float L,W,area,perimeter;
+       
+        printf("Enter the length\n");
+        scanf("%f",&L);
+
+        printf("Enter the breadth\n");
+        scanf("%f",&W);
+
+        area=L*W;
+        perimeter=2*(L+W);
+
+          printf("The area & perimeter of the rectangle is %f and %f",area,perimeter);
        
        return 0;
    }
 ```
+![perimeter and area of rectangle](https://user-images.githubusercontent.com/81384987/198894416-f7acd83d-1ec0-4b65-9145-a4ce8926e03c.png)
 ---
 6) Write a C program to take a floating-point number from user and show its value.
 ``` #include<stdio.h>
