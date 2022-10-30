@@ -141,26 +141,93 @@ C cording Day Day_2
  ![number of subsets of a set](https://user-images.githubusercontent.com/81384987/198895151-1403083c-ae2b-4d15-9e63-ee9f9897197e.png)
 
  ---
- 7) Write a C program to take a character variable from user and show its value.
+ 7) Write a C program to check Even or Odd.
  ```
        #include<stdio.h>
        int main()
        {
-              char name;
-              printf("Enter your name \n");
-              scanf("%c",&name);
-       
-              printf("The first later of your name is %c",name);
+            int number;
+            printf("Enter the number \t");
+            scanf("%d",&number);
               
+            if(number%2==0)
+              {
+                 printf("It's a even number\n");
+              }
+               else
+               {
+                 printf("It's a odd number\n");
+               }
        return 0;
        }
 ```
 ---
-8) Chack the validity of following identifiers (mentioned below) through the compilation of C. <br/>
-       i)   a2 <br/>
-       ii)  2a <br/>
-       iii) @b <br/>
-       iv)  b_2 <br/>
-       v)   1_c <br/>
+8) Write a C program to check the input is divisible by 3 or not.
 ```
+       #include<stdio.h>
+       int main()
+       {
+            int number;
+            printf("Enter the number \t");
+            scanf("%d",&number);
+              
+            if(number%3==0)
+              {
+                 printf("It's divisible by 3\n");
+              }
+               else
+               {
+                 printf("It's not divisible by 3\n");
+               }
+       return 0;
+       }
 ```
+---
+9) Write a C program to check the input integer is square root or not ( Don't take imaginary value).
+```
+       #include<stdio.h>
+       #include<math.h>
+       int main()
+        {
+         int num;
+         int iVar;
+         float fVar;
+       
+          printf("Enter an integer number: ")
+          scanf("%d",&num);  // example you enter 8
+       
+          fVar= sqrt((double)num); // double is use for - store the full floating value. example: 2.82842 🤔
+          
+          iVar = fVar;   // example: fVar= 2.82842 but iVar= 2 ( because "int iVar" )- it's save only integers 😁
+          if(iVar==fVar)   // '==' chack fVar & iVar is equal or not , Example 2.82842 ≠ 2 😎
+              { 
+              printf("%d is a perfact squre.",num);
+              } else {
+              printf("%d is not a perfact aqure.",num);
+              }
+         return 0;
+        }
+```
+---
+10) Write a C program to swap two integers (with third varible).
+```
+       #include<stdio.h>
+       int main() 
+       {
+       int a,b,temp;
+       
+       printf("Enter the value of A and B ");
+       scanf("%d %d",&a,&b);  // Example A=4 , B=5
+       
+       printf("The value of A & B before is %d & %d \n",a,b);
+       
+       a=temp;  // value of A is copy to Temp -- Temp = 4 & A= empty
+       a=b;     // value of B is copy to A  --  A = B = 5 & B= empty
+       b=temp;  // value of Temp is copy to B -- B = Temp 
+       
+       printf("The value of A & B afterd is %d & %d \n",a,b);
+       
+       return 0;
+       }
+```
+     
