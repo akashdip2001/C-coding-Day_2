@@ -230,7 +230,7 @@ C cording Day Day_2
 ![swap](https://user-images.githubusercontent.com/81384987/198898182-1d4636d1-8ed6-4e6c-9a75-66e44bc6272e.jpg)
 
 <a href="https://akashdip2001.github.io/C-cording-Day_1/" class="previous">&laquo; Previous</a> <br/>
-<a href="#" class="next">Next &raquo;</a>
+<a href="https://akashdip2001.github.io/404/" class="next">Next &raquo;</a>
 <a href="https://akashdip2001.github.io/linktree/" target="blank"><img align="right" src="https://yt3.ggpht.com/7tPHyFi7-QyTnhpc484ZzTuRp0fZSY-CUuykvzuKdKYIwt0fmw98SWMqwRy_7pZ6LQzEYJlvXA=s88-c-k-c0x00ffffff-no-rj-mo" alt="akashdip2001" height="40" width="40" /></a>
 <a href="https://www.youtube.com/c/akash aot" target="blank"><img align="right" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="akash aot" height="30" width="40" /></a>
 
