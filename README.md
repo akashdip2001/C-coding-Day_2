@@ -22,11 +22,11 @@ Coding by Akashdip Mahapatra
 <br/>
 
 ---
-# C-cording-Day_2-
+# C-cording-Day_2
 C cording Day Day_2 
 
 ---
-1) Write a C program to display "AOT"
+1) Write a C program to show the squar root of a positive integer given by the user.
 ```
        #include<stdio.h>
        int main()
@@ -130,3 +130,4 @@ C cording Day Day_2
        v)   1_c <br/>
 ```
 ```
+#gh-dark-mode-only
