@@ -46,48 +46,57 @@ C cording Day Day_2
 
  ```
  ---
- 2) Write a C program to display your name
+ 2) Write a C program to display the following statement using formatted output function " 169-AOT_B.Tech 1st Year_2022 "
  ```
-       #include<stduo.h>
-       int main()
+     #include<stdio.h>
+
+     int main()
        {
-          printf("Akashdip Mahapatra");
-          return 0;
-          }
+        printf("169-AOT_B.Tech 1st Year_2022");
+       return 0;
+       }
 ```
 ---
-3) Write a C program to display following - <br/>
-  AOT <br/>
-  B.Tech <br/>
-  1st Sem <br/>
+3) Write a C program to enter the radius of a circle using standard input function and show its area.
   ```
   #include<stdio.h>
-  int main()
-  {
-       printf("\tAOT \n \tB.Tech \n \t1st Sem"); 
-       // \n for next line & \t for little space.
+
+   int main()
+       {
+        float r,A;
+        printf("Enter the radius of circle\n");
+        scanf("%f",&r);
+        
+        A=3.14*r*r;
+        printf("The area of this circle is %f",A);
+        
+        // or printf("The area of this circle is %f",3.14*r*r); (with-out Using A, This way is easy to undersand for gcc compiler)
+        
        return 0;
-   }
+       }
    ```
 ---
-4) Write a C program to take two integers from user and also show their sum.   
+4) Write a C program to enter the length of a side for a square and show the length of its diagonal using standard output function.  
    ```
    #include<stdio.h>
+   #include<math.h>
+
    int main()
-   {
-       int a,b;
-        printf("Enter Two integers \n");
-        scanf("%d %d",&a,&b);
-   
-       printf("Two integers is %d & %d and there Sum is %d",a,b,a+b);
-       
-       //or
-       //int c = a+b;
-       //printf("Two integers is %d & %d and there Sum is %d",a,b,c);
-       
-   return 0;
-   }
+       {
+        float s,a,l;
+        printf("Enter a side of squre\n");
+        scanf("%f",&s);
+
+        a=s*s;
+        l=sqrt(a/0.5);
+
+
+        printf("The area of this circle is %f",l);
+       return 0;
+       }
    ```
+![Write a C program to enter the length of a side for a square and show the length of its diagonal using standard output function](https://user-images.githubusercontent.com/81384987/198893648-7464cde2-0954-47c2-baf0-9afe6ebb7843.png)
+
 ---
 5) Write a C program to take two different integers from user and also display their different. --- same ⬆️ ( c = a-b )
 ```
