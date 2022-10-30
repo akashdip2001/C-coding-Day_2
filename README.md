@@ -232,7 +232,7 @@ C cording Day Day_2
 ```
 ![swap](https://user-images.githubusercontent.com/81384987/198898182-1d4636d1-8ed6-4e6c-9a75-66e44bc6272e.jpg)
 
-<a href="https://akashdip2001.github.io/C-cording-Day_1/" class="previous">&laquo; Previous</a>
+<a href="https://akashdip2001.github.io/C-cording-Day_1/" class="previous">&laquo; Previous</a> <br/>
 <a href="#" class="next">Next &raquo;</a>
 
 
