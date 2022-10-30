@@ -28,12 +28,22 @@ C cording Day Day_2
 ---
 1) Write a C program to show the squar root of a positive integer given by the user.
 ```
-       #include<stdio.h>
-       int main()
+ #include<stdio.h>
+ #include<conio.h>
+ #include<math.h> // I use this hadder file only for "sqrt"
+
+   int main()
        {
-        printf("AOT");
+        int n;
+        printf("Enter a positive integer number\n");
+        scanf("%d",&n);
+
+        int r = sqrt(n);
+
+        printf("Square root of %d = %d", n, r);
        return 0;
        }
+
  ```
  ---
  2) Write a C program to display your name
