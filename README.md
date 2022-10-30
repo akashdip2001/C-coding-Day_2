@@ -221,7 +221,7 @@ C cording Day Day_2
        
        printf("The value of A & B before is %d & %d \n",a,b);
        
-       a=temp;  // value of A is copy to Temp -- Temp = 4 & A= empty
+       temp=a;  // value of A is copy to Temp -- Temp = 4 & A= empty
        a=b;     // value of B is copy to A  --  A = B = 5 & B= empty
        b=temp;  // value of Temp is copy to B -- B = Temp 
        
