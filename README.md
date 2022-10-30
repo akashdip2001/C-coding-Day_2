@@ -130,4 +130,3 @@ C cording Day Day_2
        v)   1_c <br/>
 ```
 ```
-#gh-dark-mode-only
