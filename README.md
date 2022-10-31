@@ -80,15 +80,15 @@ int main()
 
   int main()
   {
-    float s,a,l;
+    float side,a,d;
     printf("Enter a side of squre\n");
-    scanf("%f",&s);
+    scanf("%f",&side);
 
-    a=s*s;
-    l=sqrt(a/0.5);  //because 1/2 = 0.5
+    a=side*side;
+    d=sqrt(a/0.5);  //because 1/2 = 0.5
  
 
-     printf("The area of this circle is %f",l);
+     printf("The area of this circle is %f",d);
     return 0;
    }
 ```   
