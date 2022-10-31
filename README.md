@@ -84,7 +84,7 @@ int main()
     printf("Enter a side of squre\n");
     scanf("%f",&side);
 
-    a=side*side;
+    a=side*side;  //or,"a=pow(side,2);" is equal to side^2
     d=sqrt(a/0.5);  //because 1/2 = 0.5
  
 
