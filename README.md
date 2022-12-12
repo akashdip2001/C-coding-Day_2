@@ -12,8 +12,10 @@ Coding by Akashdip Mahapatra
 <a href="https://akashdip2001.github.io/linktree/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="akashdip-mahapatra-330687204" height="30" width="40" /></a>
 </p>
 
+| <a href="https://akashdip2001.github.io/C-coding-Day_1/" class="previous">&laquo; Previous Day</a> <br/> |
+|--------------------------------------------------------------------------------------|
+| <a href="https://akashdip2001.github.io/C-coding-Day_3/" class="next">Next Day &raquo;</a> |
 
-<br>
 <br>
 <a href="https://www.youtube.com/c/akash aot" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="akash aot" height="30" width="40" />My YouTube Channel</a>
 <br>
