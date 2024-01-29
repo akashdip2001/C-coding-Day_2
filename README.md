@@ -26,7 +26,7 @@ Coding by Akashdip Mahapatra
 
 ---
 1) Write a C program to show the squar root of a positive integer given by the user.
-```
+```c
  #include<stdio.h>
  #include<conio.h>
  #include<math.h> // I use this hadder file only for "sqrt"
@@ -46,7 +46,7 @@ int main()
  ```
  ---
  2) Write a C program to display the following statement using formatted output function " 169-AOT_B.Tech 1st Year_2022 "
- ```
+ ```c
  #include<stdio.h>
 
  int main()
@@ -57,7 +57,7 @@ int main()
 ```
 ---
 3) Write a C program to enter the radius of a circle using standard input function and show its area.
-  ```
+  ```c
  #include<stdio.h>
 
  int main()
@@ -76,7 +76,7 @@ int main()
    ```
 ---
 4) Write a C program to enter the length of a side for a square and show the length of its diagonal using standard output function.  
-```   
+```c  
   #include<stdio.h>
   #include<math.h>
 
@@ -98,7 +98,7 @@ int main()
 
 ---
 5) Write a C program to enter the length and breadth of a rectangle and show perimeter and area of rectangle.
-```
+```c
  #include<stdio.h>
  int main()
  {
@@ -121,7 +121,7 @@ int main()
 ![perimeter and area of rectangle](https://user-images.githubusercontent.com/81384987/198894416-f7acd83d-1ec0-4b65-9145-a4ce8926e03c.png)
 ---
 6) Write a C program to find the number of subsets of a set containing 'n' elements (The value of n is given by user).
-``` 
+```c
 #include<stdio.h>
 #include<math.h>
 int main()
@@ -141,7 +141,7 @@ return 0;
 
  ---
  7) Write a C program to check Even or Odd.
- ```
+ ```c
  #include<stdio.h>
  int main()
  {
@@ -162,7 +162,7 @@ return 0;
 ```
 ---
 8) Write a C program to check the input is divisible by 3 or not.
-```
+```c
  #include<stdio.h>
  int main()
  {
@@ -183,7 +183,7 @@ return 0;
 ```
 ---
 9) Write a C program to check the input integer is square root or not ( Don't take imaginary value).
-```
+```c
  #include<stdio.h>
  #include<math.h>
  int main()
@@ -209,7 +209,7 @@ return 0;
 ```
 ---
 10) Write a C program to swap two integers (with third varible).
-```
+```c
  #include<stdio.h>
  int main() 
  {
